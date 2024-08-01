@@ -1,0 +1,900 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 27px;
+    background-color: #e3e6f3; 
+    border-radius: 5px;
+    
+}
+
+.logo img{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-left: 580px;
+    position: relative;
+}
+
+nav ul li a{
+    padding: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+ 
+nav ul li a:hover{
+    color: #088178;
+    transition: 1s;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+.SPAN{
+    color: teal;
+    border-bottom:2px solid teal;
+    padding-bottom: 5px;
+  
+    
+}
+
+
+
+
+ .wll:hover{
+    color: teal;
+    border-bottom:2px solid teal;
+    padding-bottom: 5px;
+ }
+
+
+ 
+
+
+ .wlll{
+    margin-top: 33px;
+    margin-right: 140px;
+}
+
+.wlll:hover{
+    border-bottom:2px solid teal;
+    padding-bottom: 5px;
+}
+
+
+
+
+/* -------------------------------end headerr---------------------------- */
+
+
+
+/*------------------------------ start products --------------------------------- */
+.products{
+    display: flex;
+}
+
+
+.container-p{
+    display: flex;
+   
+} 
+ /* product one  */
+.Product-one img{
+    margin-top:23px;
+    margin-left: 100px;
+    width: 550px;
+    height: 530px;
+}
+
+/* product two  */
+.product-two img{
+    margin-top: 3px;
+    margin-left: 100px;
+    width: 130px;
+    height: 130px;
+}
+
+
+
+
+
+/* product three  */
+.product-three img{
+    margin-top: 3px;
+     margin-left: 10px;
+    width: 130px;
+    height: 130px;
+}
+
+
+/* product four  */
+.product-four img{
+    margin-top: 3px;
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+}
+
+
+
+/* product five  */
+.product-five img{
+    margin-top: 3px;
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+}
+
+
+
+/* ----------------------TEXT OF PRODUCTS ----------------------- */
+
+
+.t-p h4{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+
+
+.t-p h1{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: sans-serif;
+    opacity: 0.8;
+
+}
+
+
+
+.t-p h2{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: sans-serif;
+    
+
+}
+
+
+.select{
+    margin-left: 50px;
+    margin-top: 10px;
+    
+     
+}
+
+select{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+.select option{
+     font-size: 20px;
+}
+
+
+ 
+  
+
+.add-cart{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.no-1 input{
+    width: 50px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #c1baba;
+    text-align: center;
+
+}
+
+
+.cart button{
+    width: 120px;
+    height: 40px;
+    border: transparent;
+    border-radius: 3px;
+    margin-left: 10px;
+    color: white;
+    background-color: #088178;
+}
+
+
+
+.p-details h2{
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+
+.p-details p{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 50px;
+    opacity: 0.7;
+    line-height: 30px;
+}
+
+
+
+/*------------------ end product --------------------------- */
+
+
+
+
+/* ----------------------------start featured ---------------------- */
+.container-features{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.text-features h2{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+
+
+.text-features p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    opacity: 0.6;
+}
+
+
+/*--------- featured one ---------- */
+
+
+.colors-1{
+    box-shadow: 10px 10px 54px rgb( 70, 62, 221, 0.1);
+    width: 280px;
+    height: 410px;
+    margin-left: 150px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+
+}
+
+ 
+
+.f-1-image img{
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+
+.text-adidas p{
+    padding-top: 10px;
+    margin-left: 10px;
+    opacity: 0.7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.text-adidas h2{
+    padding-top: 10px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+
+.text-adidas h5{
+    padding-top: 4px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: orange;
+}
+
+
+.co-good {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one h6{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 4px;
+    color: teal;
+}
+
+.co-good i{
+ color: #088178;
+ font-size: 20px;
+}
+
+
+.color i{
+    background-color:#e8f6ea;
+    width: 33px;
+    height: 33px;
+    border-radius: 100px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-right: 15px;
+}
+
+
+.color i:hover{
+    background-color: #088178;
+    width: 33px;
+    height: 33px;
+    border-radius: 100px;
+    color: white;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+/*--------- featured two ---------- */
+
+
+.colors-2{
+    box-shadow: 10px 10px 54px rgb( 70, 62, 221, 0.1);
+    width: 280px;
+    height: 410px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+
+}
+
+ 
+
+.f-1-image img{
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+
+.text-adidas p{
+    padding-top: 10px;
+    margin-left: 10px;
+    opacity: 0.7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.text-adidas h2{
+    padding-top: 10px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+
+.text-adidas h5{
+    padding-top: 4px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: orange;
+}
+
+
+.co-good {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one h6{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 4px;
+    color: teal;
+}
+
+.co-good i{
+ color: #088178;
+ font-size: 20px;
+}
+
+
+.color i{
+    background-color:#e8f6ea;
+    width: 33px;
+    height: 33px;
+    border-radius: 100px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-right: 15px;
+}
+
+
+.color i:hover{
+    background-color: #088178;
+    width: 33px;
+    height: 33px;
+    border-radius: 100px;
+    color: white;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+/*--------- featured three ---------- */
+
+
+.colors-3{
+    box-shadow: 10px 10px 54px rgb( 70, 62, 221, 0.1);
+    width: 280px;
+    height: 410px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+
+}
+
+ 
+
+.f-1-image img{
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+
+.text-adidas p{
+    padding-top: 10px;
+    margin-left: 10px;
+    opacity: 0.7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.text-adidas h2{
+    padding-top: 10px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+
+.text-adidas h5{
+    padding-top: 4px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: orange;
+}
+
+
+.co-good {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one h6{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 4px;
+    color: teal;
+}
+
+.co-good i{
+ color: #088178;
+ font-size: 20px;
+}
+
+
+.color i{
+    background-color:#e8f6ea;
+    width: 33px;
+    height: 33px;
+    border-radius: 100px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-right: 15px;
+}
+
+
+.color i:hover{
+    background-color: #088178;
+    width: 33px;
+    height: 33px;
+    border-radius: 100px;
+    color: white;
+    transition: 1s;
+}
+
+
+
+
+
+
+/*--------- featured four ---------- */
+
+
+.colors-4{
+    box-shadow: 10px 10px 54px rgb( 70, 62, 221, 0.1);
+    width: 280px;
+    height: 410px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    margin-right: 160px;
+
+}
+
+ 
+
+.f-1-image img{
+    width: 260px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+
+.text-adidas p{
+    padding-top: 10px;
+    margin-left: 10px;
+    opacity: 0.7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.text-adidas h2{
+    padding-top: 10px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+
+.text-adidas h5{
+    padding-top: 4px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: orange;
+}
+
+
+.co-good {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one h6{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 4px;
+    color: teal;
+}
+
+.co-good i{
+ color: #088178;
+ font-size: 20px;
+}
+
+
+.color i{
+    background-color:#e8f6ea;
+    width: 33px;
+    height: 33px;
+    border-radius: 100px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-right: 15px;
+}
+
+
+.color i:hover{
+    background-color: #088178;
+    width: 33px;
+    height: 33px;
+    border-radius: 100px;
+    color: white;
+    transition: 1s;
+}
+
+
+
+
+/*------------------------------- end features -------------------------- */
+
+
+
+
+
+
+
+
+
+ /* ---------------------------start sign up --------------------------- */
+
+ .container-sing-up{
+    display: flex;
+    justify-content: space-between;
+    background-color: #041e42;
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+
+
+ /* text-sing-up */
+ .text-sing-up h2{
+    color: white;
+    padding-top: 60px;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-left: 60px;
+ }
+
+
+
+ .text-sing-up p{
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 60px;
+    color: #818ea0;
+ }
+
+ .text-sing-up p span{
+    color: #ffbb27;
+ }
+
+ 
+
+
+ .btns-sign{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 50px;
+ }
+ /* buttton-sign-up */
+
+ .input input {
+    margin-top: 40px;
+ 
+}
+
+
+.input input{
+    width: 300px;
+    height: 45px;
+    border: transparent;
+    outline: none;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+
+
+
+.btn-sign button{
+    width: 100px;
+    height: 45px;
+    border: transparent;
+    outline: none;
+    border-radius:2px;
+    background-color: #088178;
+    color: white;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+
+/*------------------------------ end sign up -------------------------- */
+
+
+
+
+/* -------------------------start footer --------------------------- */
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img-f img{
+    margin-left: 130px;
+    margin-top: 100px;
+}
+
+
+.img-f h1{
+    margin-left: 130px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container-t{
+    display: flex;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+
+ .H33 {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.8;
+ }
+
+ .PP{
+    font-size: 17px;
+    margin-left: 5px;
+    opacity: 0.7;
+ }
+
+ .PP:hover{
+    cursor: pointer;
+ }
+
+
+
+
+ /*---------- start abouts-------------  */
+
+
+ .abouts h1{
+    margin-right:  ;
+    margin-top: 105px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ 
+ .abouts p{
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: 0.7;
+ }
+ .abouts p:hover{
+    cursor: pointer;
+ }
+
+
+ /* -----------start acount--------  */
+ 
+
+ .acount h1{
+     
+    margin-top: 105px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+
+ .acount p{
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: 0.7;
+ }
+
+
+ .acount p:hover{
+    cursor: pointer;
+ }
+
+  /* start install  */
+
+
+  .install h1{
+    margin-right: 300px;
+    margin-top: 105px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+
+  
+ .install p{
+    margin-top: 10px;
+    font-size: 18px;
+    opacity: 0.7;
+ }
+
+ .install p:hover{
+    cursor: pointer;
+ }
+ .conainer-app{
+    display: flex;
+    margin-top: 30px;
+ }
+
+
+ .apple img{
+    border: 1.60px solid teal;
+    border-radius: 5px;
+ }
+
+
+ .google img{
+    border: 1.60px solid teal;
+    border-radius: 5px;
+    margin-left: 5px;
+ }
+
+
+
+
+ .security img{
+    margin-top: 30px;
+ }
+
+ /* --------start sub footer ----------- */
+
+
+ .sub p{
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: center;
+    padding-bottom: 70px;
+    opacity: 0.7;
+ }
+
+
+ /*------------------------------- end foooter ------------------------------- */
+
+
